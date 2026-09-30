@@ -5,6 +5,14 @@ All notable changes to HOL Guard will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.13.2](https://github.com/hashgraph-online/hol-guard/compare/v3.13.1...v3.13.2) (2026-09-30)
+
+
+### Bug Fixes
+
+* **codex:** require trusted decisions during evaluator outages ([#3219](https://github.com/hashgraph-online/hol-guard/issues/3219)) ([96ab771](https://github.com/hashgraph-online/hol-guard/commit/96ab7714f4c1c5800c8e5ea00ec1a0e7879c2c43))
+* **cursor:** deny parsed actions when trusted evaluation is unavailable ([5f6a902](https://github.com/hashgraph-online/hol-guard/commit/5f6a902696fda77231b2338429ac941c7b21e874))
+
 ## [3.13.1](https://github.com/hashgraph-online/hol-guard/compare/v3.13.0...v3.13.1) (2026-09-30)
 
 
